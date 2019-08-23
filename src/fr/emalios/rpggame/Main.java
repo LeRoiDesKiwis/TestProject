@@ -1,5 +1,6 @@
 package fr.emalios.rpggame;
 
+import fr.emalios.rpggame.game.Game;
 import fr.emalios.rpggame.util.Reference;
 
 /**

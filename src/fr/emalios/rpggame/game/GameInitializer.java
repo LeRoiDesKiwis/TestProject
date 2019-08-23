@@ -1,4 +1,4 @@
-package fr.emalios.rpggame;
+package fr.emalios.rpggame.game;
 
 import fr.emalios.rpggame.enums.GameType;
 import fr.emalios.rpggame.player.Player;
@@ -12,16 +12,17 @@ import java.util.Scanner;
  * @author Emalios
  */
 
-public class Game
+public class GameInitializer
 {
 
     private List<String> stringGameTypes;
 
-    private Player player;
-    private GameType difficulty;
+    private Game game;
 
-    public Game()
+    public GameInitializer(Game game)
     {
+        this.game = game;
+
         stringGameTypes = new ArrayList<>();
 
         for(GameType gameType : GameType.values())
@@ -29,10 +30,9 @@ public class Game
             stringGameTypes.add(gameType.toString());
         }
 
-        initializeGame();
     }
 
-    private void initializeGame()
+    public void initializeGame()
     {
         //Get Player
         Scanner sc = new Scanner(System.in);
@@ -52,7 +52,7 @@ public class Game
             return;
         }
         System.out.println("Name : " + playerName);
-        player = new Player(playerName);
+        game.setPlayer(new Player(playerName));
     }
 
     private void getGameType(Scanner sc)
@@ -65,7 +65,8 @@ public class Game
             return;
         }
         System.out.println("Game difficulty set to : " + difficulty);
-        this.difficulty = GameType.valueOf(difficulty.toUpperCase());
+        game.setDifficulty(GameType.valueOf(difficulty.toUpperCase()));
         System.out.println(difficulty);
     }
+
 }
