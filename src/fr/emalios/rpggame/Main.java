@@ -1,6 +1,7 @@
 package fr.emalios.rpggame;
 
 import fr.emalios.rpggame.game.Game;
+import fr.emalios.rpggame.game.GameInitializer;
 import fr.emalios.rpggame.util.Reference;
 
 /**
@@ -12,6 +13,7 @@ public class Main {
     public static void main(String[] args)
     {
         System.out.println(Reference.WELCOME);
-        Game game = new Game();
+        GameInitializer gameInitializer = new GameInitializer();
+        gameInitializer.initializeGame();
     }
 }

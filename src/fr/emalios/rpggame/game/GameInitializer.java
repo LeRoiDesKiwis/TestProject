@@ -16,12 +16,12 @@ public class GameInitializer
 {
 
     private List<String> stringGameTypes;
+    private Player player;
+    private GameType difficulty;
 
-    private Game game;
 
-    public GameInitializer(Game game)
+    public GameInitializer()
     {
-        this.game = game;
 
         stringGameTypes = new ArrayList<>();
 
@@ -40,6 +40,8 @@ public class GameInitializer
 
         //Get difficulty
         getGameType(sc);
+
+        Game game = new Game(player, difficulty);
     }
 
     private void getPlayer(Scanner sc)
@@ -52,20 +54,20 @@ public class GameInitializer
             return;
         }
         System.out.println("Name : " + playerName);
-        game.setPlayer(new Player(playerName));
+        player = new Player(playerName);
     }
 
     private void getGameType(Scanner sc)
     {
         System.out.println(Reference.CHOOSE_GAME_TYPE);
-        String difficulty = sc.nextLine();
-        if(!stringGameTypes.contains(difficulty))
+        String str = sc.nextLine();
+        if(!stringGameTypes.contains(str))
         {
             getGameType(sc);
             return;
         }
+        difficulty = GameType.valueOf(str.toUpperCase());
         System.out.println("Game difficulty set to : " + difficulty);
-        game.setDifficulty(GameType.valueOf(difficulty.toUpperCase()));
         System.out.println(difficulty);
     }
 

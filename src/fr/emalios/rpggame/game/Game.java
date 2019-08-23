@@ -14,13 +14,12 @@ public class Game
     private Player player;
     private GameType difficulty;
 
-    public Game()
+    public Game(Player player, GameType difficulty)
     {
 
-        //Initialize Game
-        GameInitializer gameStarter = new GameInitializer(this);
-        gameStarter.initializeGame();
-        
+        this.player = player;
+        this.difficulty = difficulty;
+
     }
 
     public void setPlayer(Player player)
