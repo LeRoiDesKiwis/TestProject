@@ -2,27 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f004787-8134-4400-9709-e02250605c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/askers/Asker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/askers/DifficultyAsker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/askers/PlayerAsker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/enums/Difficulty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/factories/AskerFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmes/META-INF/Programmes.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/META-INF/Programmes.kotlin_module" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/enums/GameType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/game/GameInitializer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/player/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/player/Pseudo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/player/Pseudo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/enums/GameType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/game/GameInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/game/GameBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/player/Player.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/player/Pseudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/player/Pseudo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/askers/DifficultyAsker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/askers/DifficultyAsker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/enums/Difficulty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/enums/Difficulty.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +20,12 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
-        <projects_view />
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
       </state>
     </system>
   </component>

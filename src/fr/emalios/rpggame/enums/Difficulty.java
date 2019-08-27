@@ -2,6 +2,7 @@ package fr.emalios.rpggame.enums;
 
 import java.util.Arrays;
 import java.util.List;
+import java.util.Optional;
 
 /**
  * @author Emalios
@@ -17,9 +18,10 @@ public enum Difficulty
         return Arrays.asList(values());
     }
 
-    public static boolean contains(String string){
+    public static Optional<Difficulty> fromString(String string){
         return toList()
                 .stream()
-                .anyMatch(type -> type.toString().equalsIgnoreCase(string));
+                .filter(type -> type.toString().equalsIgnoreCase(string))
+                .findAny();
     }
 }
