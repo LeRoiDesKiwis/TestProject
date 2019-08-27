@@ -2,29 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6f004787-8134-4400-9709-e02250605c73" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/gson_2_8_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/settings/PlayerStartingRessources.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/settings/SettingsManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/askers/Asker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/askers/DifficultyAsker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/askers/PlayerAsker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/enums/Difficulty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/factories/AskerFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Programmes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Programmes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmes/META-INF/Programmes.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/META-INF/Programmes.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/enums/GameType.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/game/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/game/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/game/GameInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/game/GameInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/game/GameInitializer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/player/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/player/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/player/Pseudo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Programmes/fr/emalios/rpggame/player/Pseudo.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/enums/GameType.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/game/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/game/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/game/GameInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/game/GameInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/game/GameInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/game/GameBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/player/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/player/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fr/emalios/rpggame/player/Pseudo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/fr/emalios/rpggame/player/Pseudo.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="DefaultGradleProjectSettings">
-    <option name="isMigrated" value="true" />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -37,104 +41,6 @@
         <projects_view />
       </state>
     </system>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/settings/PlayerStartingRessources.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/settings/SettingsManager.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="6" selection-start-line="6" selection-end-line="6" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/game/Game.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/game/GameInitializer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/player/Player.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-              <folding>
-                <element signature="e#152#153#0" expanded="true" />
-                <element signature="e#200#201#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/player/Pseudo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/enums/GameType.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/util/Reference.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -149,68 +55,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/fr/emalios/Main.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/GameTest.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/entity/GameType.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/enums/GameType.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/util/Reference.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/entity/Player.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/player/Pseudo.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/player/Player.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/interfaces/Displayable.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/Game.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/game/GameStarter.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/game/Game.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/game/GameInitializer.java" />
-        <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/settings/SettingsManager.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/settings/PlayerStartingRessources.java" />
-        <option value="$PROJECT_DIR$/src/fr/emalios/rpggame/Main.java" />
-      </list>
-    </option>
-  </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand />
-      <select />
-    </treeState>
-  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="475" />
     <option name="y" value="35" />
     <option name="width" value="1275" />
     <option name="height" value="755" />
   </component>
+  <component name="ProjectId" id="1Q0g5lBfGw20l67OeGB9mrWNlAe" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="RPGGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPGGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="RPGGame" type="b2602c69:ProjectViewProjectNode" />
-              <item name="RPGGame" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="libs" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -221,6 +75,7 @@
     <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -230,6 +85,7 @@
       <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="fr.emalios.rpggame.askers" />
       <recent name="fr.emalios.rpggame.game" />
       <recent name="fr.emalios.rpggame" />
     </key>
@@ -301,146 +157,19 @@
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="29333000" />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18389262" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.40294117" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32941177" />
-      <window_info anchor="bottom" id="Build" order="13" weight="0.32941177" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Theme Preview" order="4" />
-      <window_info anchor="right" id="Maven" order="5" weight="0.3295302" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-      <window_info anchor="right" id="Database" order="8" />
-      <window_info anchor="right" id="Gradle" order="9" />
-    </layout>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/GameTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/interfaces/Displayable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2430" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradle.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/settings/PlayerStartingRessources.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="1" selection-start-line="3" selection-start-column="1" selection-end-line="3" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/settings/SettingsManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/player/Player.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="32" selection-start-line="11" selection-start-column="32" selection-end-line="11" selection-end-column="32" />
-          <folding>
-            <element signature="e#152#153#0" expanded="true" />
-            <element signature="e#200#201#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/player/Pseudo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/enums/GameType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/util/Reference.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/game/GameInitializer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="43" column="37" selection-start-line="43" selection-start-column="37" selection-end-line="43" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/emalios/rpggame/game/Game.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="masterDetails">
     <states>

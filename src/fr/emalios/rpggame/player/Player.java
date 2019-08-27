@@ -14,4 +14,8 @@ public class Player
         this.pseudo = new Pseudo(pseudo);
     }
 
+    @Override
+    public String toString() {
+        return pseudo.toString();
+    }
 }

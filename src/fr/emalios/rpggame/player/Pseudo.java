@@ -19,16 +19,11 @@ public class Pseudo implements Displayable
     @Override
     public void display(String before, String after)
     {
-        if(before.isEmpty())
-        {
-            System.out.println(pseudo + " " + after);
-            return;
-        }
-        if(after.isEmpty())
-        {
-            System.out.println(before + " " + pseudo);
-            return;
-        }
-        System.out.println(before + " " + pseudo + " " + after);
+        System.out.println(before+ pseudo + after);
+    }
+
+    @Override
+    public String toString() {
+        return pseudo;
     }
 }
