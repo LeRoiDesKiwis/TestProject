@@ -41,7 +41,7 @@ public class GameInitializer
         //Get difficulty
         getGameType(sc);
 
-        Game game = new Game(player, difficulty);
+        new Game(player, difficulty);
     }
 
     private void getPlayer(Scanner sc)
