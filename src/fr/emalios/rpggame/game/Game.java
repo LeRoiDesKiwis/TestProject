@@ -21,14 +21,4 @@ public class Game
         this.difficulty = difficulty;
 
     }
-
-    public void setPlayer(Player player)
-    {
-        this.player = player;
-    }
-
-    public void setDifficulty(GameType difficulty)
-    {
-        this.difficulty = difficulty;
-    }
 }
